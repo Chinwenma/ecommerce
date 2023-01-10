@@ -35,7 +35,7 @@
  }
 
  .section-p1 {
-     padding: 40px 80px;
+     padding: 40px  80px;
  }
 
  .section-m1 {
@@ -54,9 +54,22 @@
     transition: 0.2s;
 
  }
+ button.transparent{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #0e0d0d;
+    background-color:transparent;
+    cursor: pointer;
+    border: 1px solid black;
+    outline:none;
+    transition: 0.2s;
+
+ }
 
  body {
      width: 100%;
+    
  }
 
  /*header starts*/
@@ -222,7 +235,7 @@
      min-width: 250px;
      padding: 10px 12px;
      border: 1px solid #cce7d0;
-     border-radius: 25px;
+     border-radius: 50px;
      cursor: pointer;
      box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
      margin: 15px 0;
@@ -311,7 +324,139 @@ background-repeat: no-repeat;
     color: white;
     transition: 0.3s ease-in-out;
  }
-
+ #sm-banner{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+ }
+ #sm-banner h4{
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+ }
+ #sm-banner h2{
+    font-size: 28px;
+    font-weight: 800;
+    color: #f80303;
+ }
+ #sm-banner span{
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    color: #fff;
+ }
+ .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image:url(../images/laura-chouette-6UxrwcorLZU-unsplash.jpg);
+    min-width: 580px;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    /* background-repeat: no-repeat; */
+ }
+ #sm-banner .banner-box:hover button{
+    background: #088178;
+    color: white;
+    border: 1px solid #088178;
+    transition: 0.3s ease-in-out;
+ }
+ .banner-box2{
+    background-image: url(../images/hannah-morgan-ycVFts5Ma4s-unsplash.jpg);
+ }
+ #text-banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   padding: 0 80px;
+ }
+ #text-banner .banner-box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image:url(../images/alexander-kovacs-NHqLJrlHvDY-unsplash.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    margin-bottom: 20px;
+ }
+ /* .banner-box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+ } */
+ #text-banner h2{
+    color: rgb(5, 5, 5);
+    font-size: 22px;
+    font-weight: 900;
+ }
+ #text-banner h3{
+    color: #12c651;
+    font-size: 15px;
+    font-weight: 800;
+ }
+ #text-banner .banner-box3b{
+    background-image: url(../images/alexi-romano-CCx6Fz_CmOI-unsplash.jpg);
+ }
+ #text-banner .banner-box3c{
+    background-image: url(../images/jumpsuit8.jpg);
+ }
+ #news-letter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;align-items: center;
+    background-image:url(../images/dom-hill-nimElTcTNyY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: 40% 20%;
+    background-size: cover;
+    background-color:rgb(32, 32, 49);
+    height: 50vh;
+ }
+ #news-letter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color:#ff0000;
+ }
+ #news-letter p{
+    font-size: 14px;
+    font-weight: 600;
+    color:#088178;
+ }
+ #news-letter p span{
+    color:black
+ } 
+ #news-letter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+ } 
+ #news-letter button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+ }
+ #news-letter .form{
+    display: flex;
+    width: 40%;
+ }
+ svg{
+    margin: 0 0;
+ }
 
 
  /*shop page*/
